@@ -1,0 +1,21 @@
+<div id="form">
+  <div id="">
+    <img [src]="imageSrc" [alt]="nom" /> <br/>
+    <div id="nom">
+      Nom : {{User.firstname}}
+    </div>
+    <div id="prenom">
+      Prénom : {{User.name}}
+    </div>
+    <div id="age">
+      Age : {{User.Age}}
+    </div>
+  </div>
+  <div>
+    <span class="badge"><p>{{Quote}}</p></span><br>
+    <input [(ngModel)]=Quote name="quote" placeholder="My Preciiiiouuuusss" >
+  </div>
+  <div class="button">
+    <button (click)="myFunction()">Afficher/Masquer mon âge</button>
+  </div>
+</div>

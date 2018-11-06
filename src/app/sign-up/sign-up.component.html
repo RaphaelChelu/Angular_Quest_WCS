@@ -1,7 +1,10 @@
-<h2>{{email | uppercase}} Details</h2>
 
-<div>
-    <span class="badge"><h2>{{Email}}</h2></span><br>
-    <input [(ngModel)]=Email placeholder="email" name="email">
- 
+<div class="email-section">
+    <h2>{{email | uppercase}} Details</h2>
+
+    <div class="email-input" style="text-align: center">
+        Enter your Email : 
+        <span class="badge"><h2>{{Email}}</h2></span><br>
+        <input [(ngModel)]=Email placeholder="email" name="email">
+    </div>
 </div>
