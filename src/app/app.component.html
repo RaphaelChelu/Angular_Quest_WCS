@@ -6,6 +6,18 @@
   </h1>
 </div>
 
+<div class="movieList">
+  <ng-template [appDisplayMovies]="displayMovieList">
+    <ul>
+      <li appHightLight>The Conjuring : The Warren Records</li>
+      <li>Insidious</li>
+      <li>The Conjuring 2 : The Enfield Poltergeist</li>
+      <li>The Nun</li>
+      <li>Lights Out</li>
+    </ul>
+  </ng-template>
+</div>
+
 <router-outlet></router-outlet>
 
   

@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { MenuComponent } from './menu/menu.component';
+import { HightLightDirective } from './hight-light.directive';
+import { DisplayMoviesDirective } from './display-movies.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     SignUpComponent,
     UserProfileComponent,
-    MenuComponent
+    MenuComponent,
+    HightLightDirective,
+    DisplayMoviesDirective
   ],
   imports: [
     BrowserModule,
